@@ -14,13 +14,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 $(call inherit-product, device/huawei/anne/device.mk)
 
 ## LineageOS
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/arrow/config/common.mk)
 
 # Device identifier
-PRODUCT_NAME := lineage_anne
+PRODUCT_NAME := arrow_anne
 PRODUCT_DEVICE := anne
 PRODUCT_BRAND := HUAWEI
-PRODUCT_MODEL := P20 Lite
+PRODUCT_MODEL := Kirin659
 PRODUCT_MANUFACTURER := HUAWEI
 PRODUCT_GMS_CLIENTID_BASE := android-huawei
 
